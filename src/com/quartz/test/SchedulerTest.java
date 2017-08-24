@@ -9,6 +9,11 @@ import org.quartz.Trigger;
 import org.quartz.TriggerBuilder;
 import org.quartz.impl.StdSchedulerFactory;
 
+/**
+ * 使用调度框架实现定时任务 Quartz
+ * @author Ryan
+ *
+ */
 public class SchedulerTest {
 	public static void main(String[] args) {
 		//通过schedulerFactory获取一个调度器
