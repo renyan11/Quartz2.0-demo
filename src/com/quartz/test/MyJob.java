@@ -10,7 +10,7 @@ public class MyJob implements Job{
 
 	public void execute(JobExecutionContext arg0) throws JobExecutionException {
 		// TODO Auto-generated method stub
-		System.out.println("²âÊÔQuartz"+new Date());
+		System.out.println("æµ‹è¯•Quartz"+new Date());
 	}
 	
 }
